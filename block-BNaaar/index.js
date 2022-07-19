@@ -13,11 +13,11 @@ function handleRequest(req, res) {
     res.writeHead(200, { ContentType: `text/html` });
     res.end(`<h2>this is all about Nodejs</h2>`);
   } else if (req.method === `POST` && pathname === `/about`) {
-    res.writeHead(200, { ContentType: `text/html` });
-    res.end(`<h2>this is a post request</h2>`);
+    res.writeHead(200, { ContentType: `application / json ` });
+    res.end(`{message: this is a post request}`);
   } else {
     res.writeHead(404, { ContentType: `text/html` });
-    res.end(`<h2>page not found</h2>`);
+    res.end(`page not found`);
   }
 }
 server.listen(5000, () => {
