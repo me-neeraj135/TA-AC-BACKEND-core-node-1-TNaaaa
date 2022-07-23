@@ -1,0 +1,25 @@
+.reviewImg {
+  height: 18rem;
+  background-image: url("https://cdn.shopify.com/s/files/1/0571/9654/4186/files/Banner_12db1cc7-5769-4c3d-98a9-92c09ffb20e4.jpg?v=1623166354");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviewImg {
+  /* height: 18rem; */
+  border: 1px solid blue;
+}
+#reviews {
+  margin-top: 2rem;
+}
+.rvs {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  font-size: 4rem;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+

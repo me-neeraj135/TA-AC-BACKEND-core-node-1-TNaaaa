@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+}
+.h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #cd442e;
+}
+.h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1.5;
+
+  color: #441f12;
+  margin: 1rem 0;
+}
+.para {
+  font-size: 1.1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #441f12;
+}
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  border: 1px solid;
+}
+.story {
+  width: 30%;
+  height: 28rem;
+
+  border: 1px solid;
+}
+.storyImgBox {
+  width: 60%;
+  height: 31rem;
+  border: 1px solid;
+}
+.storyImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
