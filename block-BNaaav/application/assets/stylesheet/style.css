@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@100;300;400&display=swap");
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Oswald", sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom-style */
+
+.container {
+  max-width: 1800px;
+  width: 95%;
+  margin: auto;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem;
+}
+
+.upperHeader {
+  color: white;
+  background-color: #94302b;
+}
+
+.lowerHeader {
+  padding: 1.5rem 0;
+  color: white;
+  background-color: #bc3e2a;
+}
+
+.headerUl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lowerHeaderBox {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px solid rgb(55, 0, 255); */
+}
+.lwhBox1 {
+  font-size: 1.4rem;
+  width: 35%;
+
+  /* border: 1px solid green; */
+}
+.rcav {
+  margin: 1rem;
+  /* border: 1px solid black; */
+}
+.lwhBox2 {
+  /* padding: 0 2rem; */
+
+  /* border: 1px solid yellow; */
+  /* width: 20%; */
+}
+.eightOclock {
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transform: rotate(-15deg);
+}
+.lwhBox3 {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigationUl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+a {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+/* hero=section */
+
+.hero-banner-section {
+  /* background-image: url(""); */
+
+  /* background-color: antiquewhite; */
+}
+.bannerWrapper {
+  height: 36rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+.bannerWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.banner-block {
+  width: 100%;
+  height: 100%;
+}
+
+.banner1 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0571/9654/4186/files/Banner-2_1920x.jpg?v=1624285781");
+}
+.banner2 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0571/9654/4186/files/Banner-1_1920x.jpg?v=1624285730");
+}
+.banner3 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0571/9654/4186/files/Banner-3_1920x.jpg?v=1624285943");
+}
+
+.banner4 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0571/9654/4186/files/Banner-4_9cfbe07e-4513-404b-a20f-d5ecfcbb3552_1920x.jpg?v=1624286092");
+}
+.banner-slide-circle-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-circle {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+}
+.circle1 {
+  background-color: #94302b;
+}
